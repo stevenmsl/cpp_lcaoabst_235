@@ -18,6 +18,7 @@ using namespace std;
     child subtree of root
   - or root is the lcm
     - p and q might be the same as the root
+  - Time complexity: O(n)
 */
 
 Node *Solution::lcm(Node *root, Node *p, Node *q)
